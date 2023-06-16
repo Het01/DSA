@@ -1,4 +1,4 @@
-## Color Reference
+
 
 | Index             | Question         | Logic  |
 | ----------------- | -----------|---------|
