@@ -1,20 +1,20 @@
-| Index             | Question    |  Input  | Output        | Logic  |
-| ----------------- | -----------|--------------------------|----------------|-----|
-| 1 | Largest Element in Array |<img width=200/> n = 5 <br/> {1, 8, 7, 56, 90} |<img width=150/> 90 | Simple for loop (O(n)) |
-| 2 | Second Largest  | N = 6<br/>{12, 35, 1, 10, 34, 1} |34 | If element is greater than largest it may be second largest <br/> If element is smaller than largest but greater than second largest then update it <br/> O(n)
-| 3 | Check if array is sorted | N = 5<br/>{10, 20, 30, 40, 50} | 1 | O(n)
-| 4 | Remove duplicate elements from sorted Array | N = 3<br/>{1, 2, 2} | {1, 2} | Two Pointer |
-| 5 | Quick Left Rotation | N = 7, K = 2<br/>{1, 2, 3, 4, 5, 6, 7} | 3 4 5 6 7 1 2 |  reverse(arr,arr+k)<br/> reverse(arr+k,arr+n)<br/>reverse(arr,arr+n)
-| 6 | Move all zeroes to end of array | N = 5<br/>{3, 5, 0, 0, 4} | 3 5 4 0 0 | Two Pointer |
-| 7 | Union of Two Sorted Arrays | n = 5, {1, 2, 3, 4, 5}  <br/>m = 3, {1, 2, 3} | 1 2 3 4 5 | Use arr.back() function to remove duplicates |
-| 8 | Missing number | N = 4 <br/>{1, 4, 3} | 2 | (n*(n+1))/2 - sum |
-| 9 | Maximize Number of 1's | N = 11<br/>{1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1}<br/>M = 2 | 8 | Count the number of zeros <br/> If it is greater than M , increment i pointer until number of zero became M |
-| 10 | Find the element that appears once | N = 5<br/>{1, 1, 2, 5, 5} | 2 | XOR all elements |
-| 11 | Longest Sub-Array with Sum K | {10, 5, 2, 7, 1, 9}<br/>K = 15 | 4 | Prefix sum<br/> map<prifixSum,index> <br/> find sum-K
-| 12 | |
-| 13 | |
-| 14 | |
-| 15 | |
+| Index             |Question | Logic  |
+| -----------------|-----|----|
+| 1 | [Largest Element in Array](https://github.com/Het01/DSA/blob/main/Array/Largest_Element_in_Array.cpp)  | Simple for loop (O(n)) |
+| 2 | [Second Largest](https://github.com/Het01/DSA/blob/main/Array/Second_Largest.cpp)| If element is greater than largest it may be second largest <br/> If element is smaller than largest but greater than second largest then update it <br/> O(n)
+| 3 | [Check if array is sorted](https://github.com/Het01/DSA/blob/main/Array/Check_if_array_is_sorted.cpp) |  O(n)
+| 4 | [Remove duplicate elements from sorted Array](https://github.com/Het01/DSA/blob/main/Array/Remove_duplicate_elements_from_sorted_Array.cpp) | Two Pointer |
+| 5 | [Quick Left Rotation](https://github.com/Het01/DSA/blob/main/Array/Rotate_array_by_K_elements.cpp) | reverse 3 times
+| 6 | [Move all zeroes to end of array](https://github.com/Het01/DSA/blob/main/Array/Move_all_zeroes_to_end_of_array.cpp) | Two Pointer |
+| 7 | [Union of Two Sorted Arrays](https://github.com/Het01/DSA/blob/main/Array/Union_of_Two_Sorted_Arrays.cpp) |  Use arr.back() function to remove duplicates |
+| 8 | [Missing number](https://github.com/Het01/DSA/blob/main/Array/Missing_number.cpp) |(n*(n+1))/2 - sum |
+| 9 | [Maximize Number of 1's](https://github.com/Het01/DSA/blob/main/Array/Maximize_Number_of_1's.cpp) | Count the number of zeros <br/> If it is greater than M , increment i pointer until number of zero became M |
+| 10 | [Find the element that appears once](https://github.com/Het01/DSA/blob/main/Array/Find_the_element_that_appears_once.cpp) | XOR all elements |
+| 11 | [Longest Sub-Array with Sum K](https://github.com/Het01/DSA/blob/main/Array/Longest_Sub-Array_with_Sum_K.cpp) |  Prefix sum<br/> map<prifixSum,index> <br/> find sum-K
+| 12 | [Two Sum](https://github.com/Het01/DSA/blob/main/Array/Two_Sum.cpp)|  Use Map / Sort and two pointer |
+| 13 | [Rearrange an array](https://github.com/Het01/DSA/blob/main/Array/Rearrange_Array.cpp) | arr[i] = arr[i] + (arr[arr[i]]%n)*n <br/> arr[i] = arr[i]/n |
+| 14 | [Sort an array of 0s, 1s and 2s](https://github.com/Het01/DSA/blob/main/Array/Sort_an_array_of_0s_1s_and_2s.cpp)| 3 Pointers |
+| 15 | [Majority Element](https://github.com/Het01/DSA/blob/main/Array/Majority_Element.cpp)| Counter and element |
 | 16 | |
 | 17 | |
 | 18 | |
