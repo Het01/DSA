@@ -14,9 +14,18 @@
 |12|[Diameter of a Binary Tree](https://github.com/Het01/DSA/blob/main/Tree/Diameter_of_a_Binary_Tree.cpp)| pair<bool,int> (Diameter,height) |
 |13|[Maximum Path Sum](https://github.com/Het01/DSA/blob/main/Tree/Maximum_Path_Sum.cpp)| maxi=l+r+root->data and return max(l,r)+root->data |
 |14|[Determine if Two Trees are Identical](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
-|15|[](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
-|16|[](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
-|17|[](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
-|18|[](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
-|19|[](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
-|20|[](https://github.com/Het01/DSA/blob/main/Tree/Determine_if_Two_Trees_are_Identical.cpp)| Travel both trees |
+|15|[ZigZag Tree Traversal](https://github.com/Het01/DSA/blob/main/Tree/ZigZagTreeTraversal.cpp)| Use Flag |
+|16|[Boundary Traversal](https://github.com/Het01/DSA/blob/main/Tree/Boundary_Traversal.cpp)| Left Leaf Leaf Right |
+|17|[Vertical Order Traversal](https://github.com/Het01/DSA/blob/main/Tree/Vertical_Order_Traversal.cpp)| Queue(Node*,vl,hl) <br/> m(vl,hl,nodes) |
+|18|[Top View](https://github.com/Het01/DSA/blob/main/Tree/Top_View.cpp)| Queue(Node*,vl)<br/>m(vl,first node) - check in m |
+|19|[Bottom View](https://github.com/Het01/DSA/blob/main/Tree/Bottom_View.cpp)| Remove one condition |
+|20|[Left View](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
+|21|[Right View](https://github.com/Het01/DSA/blob/main/Tree/Right_View.cpp)| First right then left |
+|22|[Symmetric Tree](https://github.com/Het01/DSA/blob/main/Tree/Symmetric_Tree.cpp)| Take left in one and right in second |
+|23|[Root to Leaf Paths](https://github.com/Het01/DSA/blob/main/Tree/Root_to_Leaf_Paths.cpp)| pop_back() while returning |
+|24|[Lowest Common Ancestor](https://github.com/Het01/DSA/blob/main/Tree/Lowest_Common_Ancestor.cpp)| if node found return it |
+|25|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
+|26|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
+|27|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
+|28|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
+|29|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
