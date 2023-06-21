@@ -24,8 +24,12 @@
 |22|[Symmetric Tree](https://github.com/Het01/DSA/blob/main/Tree/Symmetric_Tree.cpp)| Take left in one and right in second |
 |23|[Root to Leaf Paths](https://github.com/Het01/DSA/blob/main/Tree/Root_to_Leaf_Paths.cpp)| pop_back() while returning |
 |24|[Lowest Common Ancestor](https://github.com/Het01/DSA/blob/main/Tree/Lowest_Common_Ancestor.cpp)| if node found return it |
-|25|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
-|26|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
-|27|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
-|28|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
-|29|[](https://github.com/Het01/DSA/blob/main/Tree/Left_View.cpp)| level==ans.size() |
+|25|[Maximum Width of Binary Tree](https://github.com/Het01/DSA/blob/main/Tree/Maximum_Width_of_Binary_Tree.cpp)| Indexing |
+|26|[Children Sum Parent](https://github.com/Het01/DSA/blob/main/Tree/Children_Sum_Parent.cpp)| Take sum and compare |
+|27|[Nodes at given distance](https://github.com/Het01/DSA/blob/main/Tree/Nodes_at_given_distance.cpp)| Make Parent map and BFS Travel |
+|28|[Burning Tree](https://github.com/Het01/DSA/blob/main/Tree/Burning_Tree.cpp)| Make Parent map and BFS |
+|29|[Count total Nodes in COMPLETE Binary Tree](https://github.com/Het01/DSA/blob/main/Tree/Count_total_Nodes_in_COMPLETE_Binary_Tree.cpp)| Find left height and right height<br/> if same -> return 2^height - 1 else return 1 + left + right |
+|30|[Construct Tree from Inorder & Preorder](https://github.com/Het01/DSA/blob/main/Tree/Construct_Tree_from_Inorder_&_Preorder.cpp)| Use map for storing index of inorder (if all elments are unique) |
+|31|[Construct Tree from Inorder & Postorder](https://github.com/Het01/DSA/blob/main/Tree/Construct_Tree_from_Inorder_&_Postorder.cpp)| Starting from back and first right then left |
+|32|[](https://github.com/Het01/DSA/blob/main/Tree/Burning_Tree.cpp)| Make Parent map and BFS |
+|33|[](https://github.com/Het01/DSA/blob/main/Tree/Burning_Tree.cpp)| Make Parent map and BFS |
